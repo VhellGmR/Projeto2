@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Avenir Roman";
+    src: url(avenir-roman.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../imgs/bg.jpg) no-repeat  center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: "Avenir Roman", sans-serif;
+    
+}
+
+.btn {
+    position: absolute;
+    display: inline-block;
+    top: 16px;
+    right: 32px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 16px;
+    display: block;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid #f9f9f9;
+    text-align: center;
+    color: #f9f9f9;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background: #d3d3d3;
+}
+.logo {
+    max-width: 160px;   
+}
+
+.hero-content {
+    padding-left: 70px;
+}
+
+.hero-content > p{
+    color: gray;
+    font-size: 10px;
+    line-height: 18px;
+    margin: 16px;
+    
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 50px;
+    color: #f9f9f9;
+    margin: 20px 0px 30px 0 px;
+}
+
+.precos-container {
+    display: flex;
+}
+
+.precos span {
+    color: #f9f9f9;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.precos  {
+    color: gray;
+    width: 250px;
+    max-width: 100%;
+    
+}
+
+.precos a {
+    padding: 14px 12px;
+    background: #0063e5;
+    display: block;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+    color: #f9f9f9;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.2s ease;
+}
+
+.precos a:hover {
+    background: #0483ee;
+
+}
+
+.precos p {
+    margin: 16px 0;
+
+}
+
+.precos + .precos {
+    margin-left: 32px;
+}
